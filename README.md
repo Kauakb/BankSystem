@@ -2,7 +2,6 @@
 # Bank Management System
 ### Author 
 - Kaua Barbosa Florenco
-- Student Number 2025257
 
 ***Module:*** CA2 - Algorithms & Architecture
 ## Project Overview
