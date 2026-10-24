@@ -1,0 +1,16 @@
+# Build output (NetBeans/Ant, IntelliJ, manual javac)
+build/
+dist/
+out/
+*.class
+*.jar
+
+# IDE files that are specific to one machine
+**/nbproject/private/
+.idea/
+*.iml
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
