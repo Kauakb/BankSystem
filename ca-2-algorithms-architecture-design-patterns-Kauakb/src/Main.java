@@ -2,7 +2,7 @@ import view.BankUI;
 import controller.BankController;
 
 
-//Applicants_Form.txt - password
+// When prompted for the file name, enter: Applicants_Form.txt
 
 public class Main {
     public static void main(String[] args) {

@@ -1,5 +1,7 @@
 # README EXPLANATION
 # Bank Management System
+[![CI](https://github.com/Kauakb/BankSystem/actions/workflows/ci.yml/badge.svg)](https://github.com/Kauakb/BankSystem/actions/workflows/ci.yml)
+[![CodeQL](https://github.com/Kauakb/BankSystem/actions/workflows/codeql.yml/badge.svg)](https://github.com/Kauakb/BankSystem/actions/workflows/codeql.yml)
 ### Author 
 - Kaua Barbosa Florenco
 
@@ -17,3 +19,7 @@ The project is a Java Application as if it were for a Bank Management System tha
 - Add new records
 - Display binary tree
 - Error handling for bad format data
+## Sample Data
+`Applicants_Form.txt` contains **fictional example data** (names, emails and salaries are made up). Enter `Applicants_Form.txt` as the file name when the app asks for it.
+## License
+[MIT](LICENSE)

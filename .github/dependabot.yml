@@ -1,0 +1,9 @@
+version: 2
+updates:
+  # The app has no third-party Java libraries; keep the Actions used by the workflows up to date
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    labels:
+      - ci
