@@ -1,0 +1,36 @@
+name: Feature request
+description: Suggest a new feature or an improvement
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What
+      description: What should the app do?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why
+      description: What problem does it solve?
+    validations:
+      required: true
+  - type: dropdown
+    id: layer
+    attributes:
+      label: Part of the code
+      multiple: true
+      options:
+        - Model (Employee)
+        - View (BankUI)
+        - Controller (BankController, RecordManager)
+        - Algorithms (sorting, searching)
+        - Binary tree
+        - CSV reading
+        - Not sure
+  - type: textarea
+    id: ideas
+    attributes:
+      label: Implementation ideas
+      description: Optional. How you think it could be built.
