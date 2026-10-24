@@ -1,0 +1,56 @@
+name: Bug report
+description: Something in the app doesn't work as expected
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Menu option
+      description: Where did the problem happen?
+      options:
+        - Loading the file (startup)
+        - 1 SORT
+        - 2 SEARCH
+        - 3 ADD RECORDS
+        - 4 Create a binary tree
+        - 5 EXIT
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: What you typed at each prompt, in order.
+      placeholder: |
+        1. Enter file name: Applicants_Form.txt
+        2. Choose 2 (SEARCH)
+        3. Enter name: Kate Summer
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result
+      description: Paste the console output if you can.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: input
+    attributes:
+      label: Input data
+      description: If you used a file other than Applicants_Form.txt, paste the rows that cause the problem. Use example data only.
+      render: text
+  - type: input
+    id: java
+    attributes:
+      label: Java version
+      description: Output of `java -version`
+      placeholder: java version "25"
